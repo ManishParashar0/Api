@@ -61,7 +61,10 @@ public class FlacEncoder {
 			}
 			int[] sampleData = new int[frameLength];
 			byte[] samplesIn = new byte[frameSize];
-
+			/*
+			 * int[] sampleData = new int[frameLength]; byte[] samplesIn = new
+			 * byte[frameSize];
+			 */
 			int i = 0;
 
 			while (audioInputStream.read(samplesIn, 0, frameSize) != -1) {
