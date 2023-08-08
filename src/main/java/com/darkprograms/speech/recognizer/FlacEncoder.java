@@ -54,7 +54,7 @@ public class FlacEncoder {
 			flacEncoder.setOutputStream(flacOutputStream);
 
 			flacEncoder.openFLACStream();
-
+//    flacEncoder.openFLACStream();
 			int frameLength = (int) audioInputStream.getFrameLength();
 			if (frameLength <= AudioSystem.NOT_SPECIFIED) {
 				frameLength = 16384;// Arbitrary file size
