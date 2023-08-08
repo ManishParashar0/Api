@@ -19,6 +19,9 @@ import net.sourceforge.javaflacencoder.StreamConfiguration;
  ************************************************************************************************************/
 public class FlacEncoder {
 
+	/**
+	 * Constructor
+	 */
 	public FlacEncoder() {
 
 	}
